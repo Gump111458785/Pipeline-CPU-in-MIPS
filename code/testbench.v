@@ -22,7 +22,6 @@
 
 module testbench(
     );
-/*
     reg         clk;
     reg         rst;
     reg   [6:0] in_floors_data;
@@ -41,7 +40,7 @@ module testbench(
         #10
         rst = 0;
         #1000  $finish;
- //         rst = 1;   //更多测试数据
+ //         rst = 1;   //鏇村sim鏁版嵁
  //       in_floors_data = 40;
  //        in_resistance_data = 3;
  //       #20 rst = 0;
@@ -125,5 +124,4 @@ module testbench(
         .in_resistance_data(in_resistance_data),
         .result_is_last_broken(last_broken)
     );
-*/
 endmodule
